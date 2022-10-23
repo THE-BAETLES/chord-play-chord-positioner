@@ -15,7 +15,7 @@ class BeatService:
         
         print(f"Beat Detection end in {time.time() - st}s")
         
-        return bpm, beats
+        return float(bpm), beats.tolist()
         
     
     
