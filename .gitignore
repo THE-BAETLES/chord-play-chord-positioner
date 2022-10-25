@@ -2,4 +2,5 @@
 *.env
 # python cache
 **/__pycache__
-
+# rest
+*.rest

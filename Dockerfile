@@ -3,6 +3,7 @@ FROM python:3.7.5-slim-buster AS compile-image
 LABEL maintainer "chobe1<chobe0719@gmail.com>"
 LABEL serverType="Chord Positioner Worker Server"
 
+# copy current directory to chordPositionerServer directory 
 COPY . /chordPositionerServer
 WORKDIR /chordPositionerServer
 

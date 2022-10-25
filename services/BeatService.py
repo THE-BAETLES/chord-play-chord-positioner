@@ -14,8 +14,5 @@ class BeatService:
         bpm, beats, beats_confidence, _, beats_intervals = rhythm_extractor(audio)
         
         print(f"Beat Detection end in {time.time() - st}s")
-        
         return float(bpm), beats.tolist()
         
-    
-    
